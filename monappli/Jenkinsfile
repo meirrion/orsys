@@ -10,7 +10,7 @@ pipeline {
                 success {
                     junit 'monappli/monappli-domaine/target/surefire-reports/*.xml'
                         }
-                 }
-               
+                 }              
 		}
 	}
+}
